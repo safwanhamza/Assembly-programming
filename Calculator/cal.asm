@@ -26,7 +26,9 @@ EX DB ,0DH,0AH,"GOOD BYE AND HAVE A NICE TIME :)",0DH,0AH,'$'
           OP2 DB ?
           Operand DB ?
           CON DB ?
-.CODE.STARTUP
+.CODE
+
+.STARTUP
 
 
 START:
